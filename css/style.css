@@ -1,0 +1,23 @@
+
+@media (max-width: 1140px){
+	.card_4 {
+		align-content: center;
+		flex-wrap: wrap;
+		justify-content: center;
+		flex-grow: 5;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.card_4 {
+		flex-wrap: wrap;
+	} 
+}
+
+
+@media (max-width: 670px) {
+	.card_4 {
+		flex-direction: column;
+		justify-content: center;
+	}
+}
