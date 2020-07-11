@@ -28,8 +28,9 @@
 	}
 }
 
+
 /* media tablet */
-@media (max-width: 991.98px) {
+@media (max-width: 768px) {
 	.card_4 {
 		flex-wrap: wrap;
 	} 
