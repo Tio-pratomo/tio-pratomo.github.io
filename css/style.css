@@ -1,45 +1,46 @@
 /* untuk footer */
 
 .section-image p {
-	font-family: 'Grenze Gotisch', cursive;
-	font-size: 20px;
-	color: white;	
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 20px;
+    color: white;
 }
 
 .section-copyright {
-	box-sizing: border-box;
-	margin: 50px auto 0;
+    box-sizing: border-box;
+    margin: 50px auto 0;
 }
 
 .section-copyright p {
-	margin-top: 10px;
-	color: white;
+    margin-top: 10px;
+    color: white;
 }
 
-
+li.nav-link {
+    cursor: pointer;
+}
 
 /* media tablet/pc */
-@media (max-width: 1140px){
-	.card_4 {
-		align-content: center;
-		flex-wrap: wrap;
-		justify-content: center;
-		flex-grow: 5;
-	}
+@media (max-width: 1140px) {
+    .card_4 {
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-grow: 5;
+    }
 }
-
 
 /* media tablet */
 @media (max-width: 768px) {
-	.card_4 {
-		flex-wrap: wrap;
-	} 
+    .card_4 {
+        flex-wrap: wrap;
+    }
 }
 
 /* media smartphone */
 @media (max-width: 670px) {
-	.card_4 {
-		flex-direction: column;
-		justify-content: center;
-	}
+    .card_4 {
+        flex-direction: column;
+        justify-content: center;
+    }
 }

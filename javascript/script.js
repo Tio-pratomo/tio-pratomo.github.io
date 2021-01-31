@@ -1,13 +1,21 @@
 function cvSupport() {
-    return alert(
-        `!!!!!!PERHATIAN!!!!!!\n \n
-    Berkas tersebut hanya di peruntukan untuk melamar kerja. \n
-    Berkas tersebut di tujukan agar perusahaan/divisi HRD dapat mencari lebih lanjut \n
-    latar belakang, dan kemampuan pelamar.\n
-    Tidak di benarkan untuk memanipulasi, atau memanfaatkan berkas tersebut untuk kepentingan pribadi,\n 
-    karena melanggar hukum.\n
-    terima kasih atas perhatiannya.`
+    const isHitButton = confirm(
+        '!!!!!!PERHATIAN!!!!!! \n' +
+            'Berkas pendukung hanya di peruntukan untuk melamar kerja. ' +
+            'Berkas tersebut ditujukan agar perusahaan/divisi HRD dapat mencari lebih lanjut ' +
+            'latar belakang, dan kemampuan pelamar.' +
+            'Tidak dibenarkan untuk memanipulasi, atau ' +
+            'memanfaatkan berkas tersebut untuk kepentingan pribadi,' +
+            'karena melanggar hukum. \n' +
+            'Terima kasih atas perhatiannya. \n' +
+            '\nKlik OK untuk melihat berkas atau cancel untuk batal.'
     );
+
+    if (isHitButton) {
+        return window.open('berkas_pendukung.pdf', '_blank');
+    } else {
+        return (location.href = '/');
+    }
 }
 
-document.querySelector('[target = "_blank"]').onclick = cvSupport;
+document.querySelector('li.nav-link').onclick = cvSupport;
