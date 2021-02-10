@@ -14,8 +14,14 @@ function cvSupport() {
     if (isHitButton) {
         return window.open('berkas_pendukung.pdf', '_blank');
     } else {
-        return (location.href = '/');
+        return (location.href = 'index.html');
     }
 }
 
+function copyrightYear() {
+    const year = new Date();
+    return year.getFullYear();
+}
+
 document.querySelector('li.nav-link').onclick = cvSupport;
+document.querySelector('footer span').innerHTML = copyrightYear();

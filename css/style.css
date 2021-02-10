@@ -1,46 +1,80 @@
-/* untuk footer */
-
-.section-image p {
-    font-family: 'Grenze Gotisch', cursive;
-    font-size: 20px;
-    color: white;
+body {
+    font-family: Roboto, sans-serif;
 }
 
-.section-copyright {
-    box-sizing: border-box;
-    margin: 50px auto 0;
+a {
+    display: inline-block;
 }
 
-.section-copyright p {
-    margin-top: 10px;
-    color: white;
+.fa-twitter,
+.fa-instagram-square {
+    font-size: 1.2em;
+}
+
+hr {
+    border-style: none;
+    border-top-style: solid;
+    border-width: 2px;
+    background-color: #11999e;
+}
+
+u {
+    text-decoration-color: #40514e;
+    -moz-text-decoration-color: #40514e;
 }
 
 li.nav-link {
     cursor: pointer;
 }
 
-/* media tablet/pc */
-@media (max-width: 1140px) {
-    .card_4 {
-        align-content: center;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-grow: 5;
-    }
+.description-self,
+.description-work {
+    font-size: 1.2em;
 }
 
-/* media tablet */
-@media (max-width: 768px) {
-    .card_4 {
-        flex-wrap: wrap;
-    }
+.section1 {
+    background-color: #e4f9f5;
+    padding: 3em 0;
 }
 
-/* media smartphone */
-@media (max-width: 670px) {
-    .card_4 {
-        flex-direction: column;
-        justify-content: center;
-    }
+.section2 {
+    padding: 3em 0;
+    background-color: #40514e;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background-color: rgba(64, 81, 78, 0.8);
+    color: #e4f9f5;
+}
+
+.main-title {
+    color: #e4f9f5;
+}
+
+.card-header,
+.software-mastered {
+    background-color: rgba(64, 81, 78, 0.8);
+}
+
+.contact,
+.training,
+.formal-education {
+    background-color: #e4f9f5;
+}
+
+.contact-title,
+.training-title,
+.formal-education-title {
+    color: #40514e;
+}
+
+.bar-skill {
+    background-color: #11999e;
+}
+
+footer {
+    background-color: #e4f9f5;
+    padding: 1.2em;
+    color: #40514e;
 }
