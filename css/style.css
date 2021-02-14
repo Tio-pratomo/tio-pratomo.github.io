@@ -84,29 +84,35 @@ li.nav-link {
 ::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
     color: #11999e !important;
+    font-size: 0.9em;
 }
 :-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
     color: #11999e !important;
     opacity: 1;
+    font-size: 0.9em;
 }
 ::-moz-placeholder {
     /* Mozilla Firefox 19+ */
     color: #11999e !important;
     opacity: 1;
+    font-size: 0.9em;
 }
 :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
     color: #11999e !important;
+    font-size: 0.9em;
 }
 ::-ms-input-placeholder {
     /* Microsoft Edge */
     color: #11999e !important;
+    font-size: 0.9em;
 }
 
 ::placeholder {
     /* Most modern browsers support this now. */
     color: #11999e !important;
+    font-size: 0.9em;
 }
 
 footer {
