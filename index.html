@@ -76,7 +76,7 @@
 					<h4 id="about" class="main-title">About</h4>
 				</div>
 				<div class="card-body text-left">
-					<p class="description-self">
+					<p class="description-self text-secondary">
 						Saya seorang lulusan D3 Teknik Sipil pada salah satu Universitas di Jakarta. <br>
 						Berpengalaman sebagai administrasi proyek pada perusahaan di Jakarta. <br>
 						Saya tertarik dalam bidang design, terutama design interior, furniture, maupun website. <br>
@@ -94,7 +94,7 @@
 					<h4 id="experience" class="main-title">Experience</h4>
 				</div>
 				<div class="card-body">
-					<div class="work">
+					<div class="work text-secondary">
 						<h4 class="description-work">PT.Wulandari Lestari</h4>
 						<h4 class="description-work">Agt 2015 - Agt 2016</h4>
 						<hr>
@@ -107,7 +107,7 @@
 						<p>Membantu pekerjaan onsite jika dibutuhkan</p>
 					</div>
 					<br>
-					<div class="work">
+					<div class="work text-secondary">
 						<h4 class="description-work">PT.Indomarco Prismatama</h4>
 						<h4 class="description-work">Mar 2017 - Sept 2017</h4>
 						<hr>
@@ -117,7 +117,7 @@
 						<p>Membuat permintaan pembelian untuk proyek toko yang akan dikerjakan.</p>
 					</div>
 					<br>
-					<div class="work">
+					<div class="work text-secondary">
 						<h4 class="description-work">PT.Wulandari Lestari</h4>
 						<h4 class="description-work">Okt 2017 - Des 2017</h4>
 						<hr>
@@ -280,33 +280,60 @@
 						<div class="card-header contact">
 							<h4 class="contact-title text-center" id="contact">Contact Me</h4>
 						</div>
-						<div class="card-body text-secondary">
-							<div class="address">
-								<address>
-									Alamat <b>:</b> <br>
-									Jl.Bekasi Timur XI No.22 RT 09 / RW 03 <br>
-									Kel.Rawabunga Kec. Jatinegara, Jakarta Timur <br>
-									<hr>
-									Email <b>:</b> <br>
-									sulistiopratomo@gmail.com <br>
-								</address>
+						<div class="card-body text-secondary row justify-content-lg-between">
+							<div class="contact-section1 col-lg-5">
+								<div class="address">
+									<address>
+										Alamat <b>:</b> <br>
+										Jl.Bekasi Timur XI No.22 RT 09 / RW 03 <br>
+										Kel.Rawabunga Kec. Jatinegara, Jakarta Timur <br>
+										<hr>
+										Email <b>:</b> <br>
+										sulistiopratomo@gmail.com <br>
+										</addraess>
+								</div>
+
+								<hr>
+								<div class="social-media">
+									<p>Sosial Media :</p>
+									<div class="twitter mb-3">
+										<i class="fa fa-twitter mr-3"></i>
+										<a href="http://www.twitter.com/Sulis211race"
+											target="_blank">www.twitter.com/Sulis211race</a>
+									</div>
+									<div class="instagram">
+										<i class="fab fa-instagram-square mr-3"></i>
+										<a href="http://www.instagram.com/race2112"
+											target="_blank">www.instagram.com/race2112</a>
+									</div>
+								</div>
 							</div>
 
-							<hr>
-							<div class="social-media">
-								<p>Sosial Media :</p>
-								<div class="twitter mb-3">
-									<i class="fa fa-twitter mr-3"></i>
-									<a href="http://www.twitter.com/Sulis211race"
-										target="_blank">www.twitter.com/Sulis211race</a>
-								</div>
-								<div class="instagram">
-									<i class="fab fa-instagram-square mr-3"></i>
-									<a href="http://www.instagram.com/race2112"
-										target="_blank">www.instagram.com/race2112</a>
-								</div>
-							</div>
+							<div class="contact-section2 col-lg-5">
+								<h4 class="h5">Jika anda ingin mempekerjakan saya, mohon isi form di bawah ini.</h4>
+								<form action="mailto:sulistiopratomo@gmail.com?subject=Pekerjaan" method="post"
+									enctype="text/plain">
+									<div class="form-group">
+										<label for="nama">Nama</label> <br>
+										<input class="form-control" type="text" name="nama" id="nama"
+											placeholder="masukkan nama anda" required>
+									</div>
 
+									<div class="form-group">
+										<label for="noTel">Nomor whatsapp</label>
+										<input class="form-control" type="tel" name="noTel" id="noTel" minlength="10"
+											maxlength="13" placeholder="cth: 081125253636" required>
+									</div>
+
+									<div class="form-group">
+										<label for="messages">Pesan</label>
+										<textarea class="form-control" name="messages" id="messages" rows="10"
+											placeholder="masukkan pesan anda"></textarea>
+									</div>
+
+									<button class="btn btn-info" type="submit">Kirim</button>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>

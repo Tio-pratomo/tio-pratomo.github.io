@@ -69,8 +69,44 @@ li.nav-link {
     color: #40514e;
 }
 
+.form-control {
+    caret-color: red;
+}
+
+.contact-section1 {
+    margin-bottom: 3em;
+}
+
 .bar-skill {
     background-color: #11999e;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #11999e !important;
+}
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #11999e !important;
+    opacity: 1;
+}
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #11999e !important;
+    opacity: 1;
+}
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #11999e !important;
+}
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #11999e !important;
+}
+
+::placeholder {
+    /* Most modern browsers support this now. */
+    color: #11999e !important;
 }
 
 footer {
