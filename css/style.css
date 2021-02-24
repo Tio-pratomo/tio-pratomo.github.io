@@ -7,7 +7,8 @@ a {
 }
 
 .fa-twitter,
-.fa-instagram-square {
+.fa-instagram-square,
+.fa-whatsapp-square {
     font-size: 1.2em;
 }
 
@@ -77,42 +78,12 @@ li.nav-link {
     margin-bottom: 3em;
 }
 
+.contact-section2 a {
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
 .bar-skill {
     background-color: #11999e;
-}
-
-::-webkit-input-placeholder {
-    /* WebKit, Blink, Edge */
-    color: #11999e !important;
-    font-size: 0.9em;
-}
-:-moz-placeholder {
-    /* Mozilla Firefox 4 to 18 */
-    color: #11999e !important;
-    opacity: 1;
-    font-size: 0.9em;
-}
-::-moz-placeholder {
-    /* Mozilla Firefox 19+ */
-    color: #11999e !important;
-    opacity: 1;
-    font-size: 0.9em;
-}
-:-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    color: #11999e !important;
-    font-size: 0.9em;
-}
-::-ms-input-placeholder {
-    /* Microsoft Edge */
-    color: #11999e !important;
-    font-size: 0.9em;
-}
-
-::placeholder {
-    /* Most modern browsers support this now. */
-    color: #11999e !important;
-    font-size: 0.9em;
 }
 
 footer {

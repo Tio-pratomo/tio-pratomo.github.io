@@ -1,0 +1,79 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+hr {
+    border: 1px solid #e4f9f5;
+}
+/* memulai header */
+#portofolio {
+    background-color: #e4f9f5;
+}
+
+/* styling top-container */
+.top-container img:nth-child(1) {
+    margin: 10vh 0 0 50vw;
+}
+
+.top-container h1 {
+    margin: 10vh auto 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 3.125rem;
+    color: #11999e;
+}
+
+.top-container img:nth-child(3) {
+    bottom: 50vh;
+}
+
+.top-container img:nth-child(4) {
+    margin: 10vh auto 0;
+}
+
+@media only screen and (max-width: 375px) {
+    .top-container img:nth-child(3) {
+        bottom: 40vh;
+    }
+}
+
+/*memulai styling bagian main*/
+
+main {
+    background-color: #40514e;
+}
+
+.introduction {
+    margin: 10vh auto 0;
+    color: #e4f9f5;
+}
+
+.proyek {
+    margin: 15vh auto 0;
+}
+
+.proyek h2 {
+    color: #e4f9f5;
+}
+
+.pt-morinda-explanation,
+.ilrc,
+.puslitbanbun,
+.bph-migas,
+.mrt {
+    color: #e4f9f5;
+    margin: 0 0 10vh;
+}
+
+.design {
+    background-color: #425451;
+}
+
+.design p,
+.design h2,
+.design h3 {
+    color: #e4f9f5;
+}
