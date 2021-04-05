@@ -13,8 +13,6 @@ function cvSupport() {
 
     if (isHitButton) {
         return window.open('berkas_pendukung.pdf', '_blank');
-    } else {
-        return (location.href = 'index.html');
     }
 }
 
