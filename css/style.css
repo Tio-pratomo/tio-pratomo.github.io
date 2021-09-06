@@ -10,7 +10,6 @@ a {
     display: inline-block;
 }
 
-
 .fa-twitter,
 .fa-instagram-square,
 .fa-whatsapp-square {
@@ -95,4 +94,57 @@ footer {
     background-color: #e4f9f5;
     padding: 1.2em;
     color: #40514e;
+}
+
+/* sertifikat */
+body.sertifikat {
+    background-color: #feffde;
+}
+
+nav .breadcrumb {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.opening-sertifikat h2 {
+    font-family: 'Lora', serif;
+    color: #91c788;
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+
+.opening-sertifikat p {
+    font-family: 'Montserrat', sans-serif;
+    color: #52734d;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.footer-sertifikat {
+    margin-top: 77px;
+    height: 60px;
+    background-color: #feffde;
+    border-top: 2px solid #ddffbc;
+    font-family: 'Montserrat', sans-serif;
+    color: #91c788;
+}
+
+.thumb:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+}
+
+.active {
+    opacity: 0.5;
 }
