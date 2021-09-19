@@ -1,79 +1,112 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-p {
-    margin: 0;
+.project-experience {
+    height: 100%;
 }
 
-hr {
-    border: 1px solid #e4f9f5;
-}
-/* memulai header */
-#portofolio {
-    background-color: #e4f9f5;
-}
-
-/* styling top-container */
-.top-container img:nth-child(1) {
-    margin: 10vh 0 0 50vw;
+.greeting {
+    line-height: 1.2;
+    font-weight: 600;
+    padding: 31px 26px 0 27px;
+    background-color: #f9f3df;
+    font-size: 1.375rem;
+    height: 25rem;
 }
 
-.top-container h1 {
-    margin: 10vh auto 0;
-    font-family: 'Sacramento', cursive;
-    font-size: 3.125rem;
-    color: #11999e;
+.section-project-1 {
+    background-color: #d7e9f7;
 }
 
-.top-container img:nth-child(3) {
-    bottom: 50vh;
+.description-1 {
+    padding: 31px 26px 0 27px;
 }
 
-.top-container img:nth-child(4) {
-    margin: 10vh auto 0;
+.description-1 h4 {
+    font-weight: 700;
 }
 
-@media only screen and (max-width: 375px) {
-    .top-container img:nth-child(3) {
-        bottom: 40vh;
+.description-1 p {
+    line-height: 25px;
+    font-size: 0.875rem;
+}
+
+.section-project-2 {
+    background-color: #f4d19b;
+}
+
+.section-project-3 {
+    background-color: #f9f3df;
+}
+
+.section-project-4 {
+    background-color: #d7e9f7;
+}
+
+.pull-up {
+    transform: translateY(-327px);
+    -webkit-transform: translateY(-327px);
+    -moz-transform: translateY(-327px);
+    -ms-transform: translateY(-327px);
+    -o-transform: translateY(-327px);
+}
+
+.pull-up-2 {
+    transform: translateY(-163px);
+    -webkit-transform: translateY(-163px);
+    -moz-transform: translateY(-163px);
+    -ms-transform: translateY(-163px);
+    -o-transform: translateY(-163px);
+}
+
+.last-project-experience {
+    background-color: #f4d19b;
+}
+
+/* part design */
+.title-design {
+    font-weight: 700;
+    width: 285px;
+    margin: 0 auto;
+}
+
+.title-design::after,
+.title-design-miscellaneous::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #f4d19b;
+    margin: 5px auto 0;
+}
+
+.title-design-miscellaneous {
+    font-weight: 700;
+    width: 485px;
+    margin: 0 auto;
+}
+
+.design-misc-margin {
+    margin: 5rem 0 0 0;
+}
+
+@media screen and (max-width: 767px) {
+    .greeting {
+        height: 20rem;
+    }
+    .pull-up,
+    .pull-up-2 {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
     }
 }
 
-/*memulai styling bagian main*/
-
-main {
-    background-color: #40514e;
-}
-
-.introduction {
-    margin: 10vh auto 0;
-    color: #e4f9f5;
-}
-
-.proyek {
-    margin: 15vh auto 0;
-}
-
-.proyek h2 {
-    color: #e4f9f5;
-}
-
-.pt-morinda-explanation,
-.ilrc,
-.puslitbanbun,
-.bph-migas,
-.mrt {
-    color: #e4f9f5;
-    margin: 0 0 10vh;
-}
-
-.design {
-    background-color: #425451;
-}
-
-.design p,
-.design h2,
-.design h3 {
-    color: #e4f9f5;
+@media screen and (max-width: 425px) {
+    .greeting {
+        height: 22rem;
+    }
 }
