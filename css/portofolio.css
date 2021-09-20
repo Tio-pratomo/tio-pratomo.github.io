@@ -83,12 +83,20 @@ body {
 
 .title-design-miscellaneous {
     font-weight: 700;
-    width: 485px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .design-misc-margin {
     margin: 5rem 0 0 0;
+}
+
+.card {
+    box-shadow: 0 3px 5px -2px rgba(52, 58, 64, 0.86);
+}
+
+.card-header {
+    background-color: #f4d19b;
 }
 
 @media screen and (max-width: 767px) {
