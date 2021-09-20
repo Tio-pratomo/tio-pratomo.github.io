@@ -87,7 +87,7 @@ img {
 
 .title-design-miscellaneous {
     font-weight: 700;
-    width: 100%;
+    width: 33.33%;
     margin: 0 auto;
 }
 
@@ -103,6 +103,12 @@ img {
     background-color: #f4d19b;
 }
 
+@media screen and (max-width: 1024px) {
+    .title-design-miscellaneous {
+        width: 58.31%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .greeting {
         height: 20rem;
@@ -114,6 +120,10 @@ img {
         -moz-transform: translateY(0);
         -ms-transform: translateY(0);
         -o-transform: translateY(0);
+    }
+
+    .title-design-miscellaneous {
+        width: 100%;
     }
 }
 
