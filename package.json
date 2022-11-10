@@ -1,11 +1,13 @@
 {
-    "name": "tio-pratomo.github.io",
+    "name": "tiopratomo.github.io",
     "version": "1.0.0",
     "description": "I created this portfolio website, aiming to find work. my background is not from Informatics Engineering, but civil engineering.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "parcel serve src/pages/*.html --lazy",
+        "build": "parcel build src/pages/*.html"
     },
+    "private": "true",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Tio-pratomo/tio-pratomo.github.io.git"
@@ -18,6 +20,7 @@
     },
     "homepage": "https://github.com/Tio-pratomo/tio-pratomo.github.io#readme",
     "devDependencies": {
+        "@parcel/transformer-sass": "^2.7.0",
         "parcel": "^2.7.0",
         "parcel-plugin-nuke-dist": "^1.0.1"
     }
