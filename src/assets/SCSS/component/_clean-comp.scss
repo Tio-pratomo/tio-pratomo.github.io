@@ -6,11 +6,10 @@
     box-sizing: border-box;
 }
 
-body {
-    max-width: 1366px;
-    overflow: hidden;
-}
-
 button {
     all: unset;
+}
+
+body {
+    overflow-x: hidden;
 }

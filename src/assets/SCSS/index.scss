@@ -1,7 +1,17 @@
 @import './variables';
 
+@import './mixins';
+
 @import './component/clean-comp';
 
 @import './component/header';
 
 @import './component/intro';
+
+@import './component/experience';
+
+@import './component/software-tool';
+
+@import './component/portfolio';
+
+@import './component/contact.scss';

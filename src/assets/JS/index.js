@@ -1,8 +1,13 @@
-import { hmr } from './utility/HMR.js';
-import { renderHeader } from '../JS/component/header/header.js';
-import { renderIntro } from './component/intro/intro.js';
+import 'animate.css';
 
-hmr();
+import { App } from './views/app';
 
-renderHeader();
-renderIntro();
+const app = new App(document.getElementById('app'));
+
+window.addEventListener('hashchange', () => {
+    app.renderPage();
+});
+
+window.addEventListener('load', () => {
+    app.renderPage();
+});

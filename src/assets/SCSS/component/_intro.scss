@@ -1,3 +1,101 @@
 .intro {
-    margin-top: 50px;
+    background-image: url(../images/background-banner.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: 92dvh;
+
+    @media screen and (768px <= width <= 997px) {
+        min-height: 94dvh;
+    }
+
+    &__container {
+        display: grid;
+        min-height: 92dvh;
+
+        @media screen and (width >= 997px) {
+            grid-template-columns: 1.3fr 1fr;
+        }
+        @media screen and (768px <= width <= 997px) {
+            grid-template-columns: 1.3fr 0.7fr;
+        }
+
+        @media screen and (601px <= width <= 768px) {
+            grid-template-columns: 1.3fr 0.7fr;
+        }
+
+        @media screen and (width <= 600px) {
+            grid-template-areas:
+                'photo'
+                'intro';
+        }
+    }
+
+    &__container__description {
+        display: flex;
+        align-items: center;
+
+        @media screen and (width <= 600px) {
+            grid-area: intro;
+            margin-top: 20px;
+        }
+    }
+
+    &__describe {
+        @include glass(12px, 0.4);
+        padding: 1.25rem;
+        margin: auto 30px;
+
+        &__title {
+            @include montserrat-font(2.1rem, 800);
+            text-transform: capitalize;
+        }
+
+        &__paragraph {
+            @include ibm-plex-font($subtitle, 600);
+            margin-top: 1.125rem;
+        }
+
+        &__typed {
+            color: $secondary-color;
+        }
+    }
+
+    &__photo-profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: inherit;
+
+        @media screen and (width <= 600px) {
+            grid-area: photo;
+        }
+
+        .photo-profile {
+            display: block;
+            max-width: 50%;
+            min-height: 50%;
+            padding: 10px 20px;
+
+            @media screen and (601px <= width <= 768px) {
+                max-width: 100%;
+                min-height: 50%;
+            }
+
+            @media screen and (768px <= width <= 997px) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                max-width: 100%;
+                min-height: 100%;
+                padding: 0 25px;
+            }
+
+            &__img {
+                display: block;
+                max-inline-size: 100%;
+                block-size: auto;
+                border-radius: 10% 0 10% 0;
+            }
+        }
+    }
 }

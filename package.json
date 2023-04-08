@@ -2,10 +2,11 @@
     "name": "tiopratomo.github.io",
     "version": "1.0.0",
     "description": "I created this portfolio website, aiming to find work. my background is not from Informatics Engineering, but civil engineering.",
-    "main": "index.js",
     "scripts": {
-        "start": "parcel serve src/pages/*.html --lazy",
-        "build": "parcel build src/pages/*.html"
+        "clean:output": "rimraf dist",
+        "start": "npm run clean:output && parcel src/pages/*.html",
+        "build": "npm run clean:output && parcel build src/pages/*.html",
+        "deploy": "gh-pages -d dist"
     },
     "private": "true",
     "repository": {
@@ -20,8 +21,22 @@
     },
     "homepage": "https://github.com/Tio-pratomo/tio-pratomo.github.io#readme",
     "devDependencies": {
+        "@parcel/transformer-babel": "^2.8.0",
         "@parcel/transformer-sass": "^2.7.0",
+        "cz-conventional-changelog": "^3.3.0",
+        "gh-pages": "^5.0.0",
         "parcel": "^2.7.0",
-        "parcel-plugin-nuke-dist": "^1.0.1"
+        "rimraf": "^3.0.2"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    },
+    "dependencies": {
+        "animate.css": "^4.1.1",
+        "aos": "^3.0.0-beta.6",
+        "sweetalert": "^2.1.2",
+        "typed.js": "^2.0.12"
     }
 }
