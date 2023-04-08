@@ -9,6 +9,7 @@
         "deploy": "gh-pages -d dist"
     },
     "private": "true",
+    "browserslist": "> 0.5%, last 2 versions, not dead",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Tio-pratomo/tio-pratomo.github.io.git"
