@@ -1,8 +1,7 @@
-import dotenv from 'dotenv';
-dotenv.config();
+import { env } from '../../../../.env';
 
 const CONFIG = {
-    FORM_URL_ID: process.env.FORM_URL_ID,
+    FORM_URL_ID: env.FORM_URL_ID,
 };
 
 export { CONFIG };
