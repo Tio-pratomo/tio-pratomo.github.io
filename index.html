@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>Tio Pratomo | Catatan Saya</title>
+    <meta
+      name="title"
+      content="Tio Pratomo - Portfolio | Web Developer & Learning Resources"
+    />
+    <meta
+      name="description"
+      content="Selamat datang di website sederhana ini. Disini, kalian akan melihat beberapa catatan, yang mungkin bermanfaat bagi anda mengenai programming, khususnya pengembangan web."
+    />
+    <meta
+      name="keywords"
+      content="Tio Pratomo, Web Developer, Portfolio, Programming, Web Development, Learning Resources, HTML CSS, JavaScript, Hugo, Open API"
+    />
+    <meta name="author" content="Tio Pratomo" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tio-pratomo.github.io/" />
+    <meta
+      property="og:title"
+      content="Tio Pratomo - Portfolio | Web Developer & Learning Resources"
+    />
+    <meta
+      property="og:description"
+      content="Selamat datang di website sederhana ini. Disini, kalian akan melihat beberapa catatan, yang mungkin bermanfaat bagi anda mengenai programming, khususnya pengembangan web."
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/Tio-pratomo/Tio-pratomo/main/img/banner.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://tio-pratomo.github.io/" />
+    <meta
+      property="twitter:title"
+      content="Tio Pratomo - Portfolio | Web Developer & Learning Resources"
+    />
+    <meta
+      property="twitter:description"
+      content="Selamat datang di website sederhana ini. Disini, kalian akan melihat beberapa catatan, yang mungkin bermanfaat bagi anda mengenai programming, khususnya pengembangan web."
+    />
+    <meta
+      property="twitter:image"
+      content="https://raw.githubusercontent.com/Tio-pratomo/Tio-pratomo/main/img/banner.png"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>"
+      type="image/svg+xml"
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://tio-pratomo.github.io/" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5.0.2 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tio Pratomo",
+        "jobTitle": "Web Developer",
+        "description": "Web Developer focused on creating and functional web experiences",
+        "url": "https://tio-pratomo.github.io/",
+        "sameAs": [
+          "https://github.com/Tio-pratomo/",
+          "https://linkedin.com/in/sulis-ti0"
+        ],
+        "image": "https://raw.githubusercontent.com/Tio-pratomo/Tio-pratomo/main/img/banner.png"
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Tio Pratomo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Catatan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h1 class="display-4 fw-bold mb-3">Hello, Semua</h1>
+            <p class="lead mb-4">
+              Selamat datang di website sederhana ini. Disini, kalian akan
+              melihat beberapa catatan, yang mungkin bermanfaat bagi anda
+              mengenai programming, khususnya pengembangan web.
+            </p>
+            <a href="#portfolio" class="btn btn-light btn-lg"
+              >Lihat Catatan Saya</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section with Cards -->
+    <section id="portfolio" class="portfolio-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="fw-bold mb-3">Catatan Saya</h2>
+            <p class="text-muted">
+              Lihat catatan dan sumber belajar yang saya miliki.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card portfolio-card h-100">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">HTML CSS & Git</h5>
+                <p class="card-text">
+                  Panduan lengkap tentang HTML CSS dan Git
+                </p>
+                <a
+                  href="https://html-css-git-tutorial.vercel.app/"
+                  class="btn btn-primary mt-auto"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visit Project</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card portfolio-card h-100">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Seputar Javascript</h5>
+                <p class="card-text">
+                  Berisi beberapa bagian teknologi atau library dari Javascript
+                  yang berguna dan layak untuk dipelajari.
+                </p>
+                <a
+                  href="https://seputar-js.vercel.app/"
+                  class="btn btn-primary mt-auto"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visit Project</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card portfolio-card h-100">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Belajar Hugo</h5>
+                <p class="card-text">
+                  Belajar cara menggunakan Hugo static site generator, dari
+                  memakai tema yang ada, dan menggunakan tema buatan sendiri
+                  dengan go templating
+                </p>
+                <a
+                  href="https://tio-pratomo.github.io/learn-hugo/"
+                  class="btn btn-primary mt-auto"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visit Project</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card portfolio-card h-100">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Utility JavaScript</h5>
+                <p class="card-text">
+                  Koleksi dari utility javascript seperti Axios, JSDoc, JSON
+                  Server, dan Pino Logger. Itu semua layak dipelajari untuk
+                  membantu kita mengembankan webdev lebih luas.
+                </p>
+                <a
+                  href="https://tio-pratomo.github.io/utility-js/"
+                  class="btn btn-primary mt-auto"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visit Project</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card portfolio-card h-100">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Open API Collection</h5>
+                <p class="card-text">Beberapa materi tentang Open API</p>
+                <a
+                  href="https://tio-pratomo.github.io/open-api/"
+                  class="btn btn-primary mt-auto"
+                  target="_blank"
+                  >Visit Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <h5>Tio Pratomo</h5>
+            <p class="mb-0">Web Developer</p>
+          </div>
+          <div class="col-md-6 d-flex flex-column align-items-end">
+            <h5 id="contact">Connect with me</h5>
+            <div class="d-flex gap-3">
+              <a
+                href="https://github.com/Tio-pratomo/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-decoration-none"
+                >GitHub</a
+              >
+              <a
+                href="https://linkedin.com/in/sulis-ti0"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-decoration-none"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="text-center">
+          <p class="mb-0">
+            &copy; <span id="current-year"></span> Tio Pratomo. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5.0.2 JS Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JavaScript -->
+    <script src="main.js"></script>
+  </body>
+</html>

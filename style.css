@@ -1,0 +1,55 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand,
+.display-4 {
+  font-family: "Playfair Display", serif;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 100px 0;
+  margin-bottom: 60px;
+}
+
+.portfolio-section {
+  padding-top: 80px; /* To account for fixed navbar */
+}
+
+.portfolio-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  margin-top: 60px;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Add space to sections to account for fixed navbar */
+#portfolio, #about, #contact {
+  scroll-margin-top: 70px;
+}

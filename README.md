@@ -1,26 +1,93 @@
-## My First Website Portofolio
+# Tio Pratomo - Portfolio
 
-### Description
+**My personal portfolio website showcasing my learning resources and projects in web development.**
 
-I created this portfolio website, aiming to find work. my background is not from Informatics Engineering, but civil engineering.
+## Description
 
-However, right now I am very happy and enthusiastic about web application technology. I learned HTML, CSS, and Javascript. I'm also still learning website development technology, and hopefully I can get a job as a front-end developer.
+Welcome to my personal portfolio website! This website serves as a central hub for my learning resources and projects focused on web development. As someone passionate about programming and web technologies, I created this space to share my learning notes and projects that I find useful for others on a similar journey.
 
-### Feature
+My background is in civil engineering, but I have developed a strong passion for web application technology. I've learned HTML, CSS, and JavaScript, and continue to explore various web development technologies. I'm working towards a career transition into frontend development.
 
-features on this website, only explain about me, my work experience, and my education.
+This portfolio features my curated collection of learning resources covering HTML, CSS, Git, JavaScript, Hugo, Open API, and various JavaScript utilities - all topics I've found valuable in my web development journey.
 
-You can also access my portfolio, at the bottom of the website. If you are interested in recruiting me, please click "rekrut" at the bottom of the website.
+## Features
 
-# React + Vite
+- **Responsive Design**: Fully responsive layout that works on all devices
+- **Modern UI**: Clean and professional design using Bootstrap 5
+- **Portfolio Showcase**: Displays my various learning resources and projects
+- **Smooth Navigation**: Smooth scrolling and fixed navigation menu
+- **SEO Optimized**: Comprehensive meta tags and structured data
+- **Fast Loading**: Optimized for performance and quick loading
+- **Professional Typography**: Google Fonts implementation (Playfair Display and Poppins)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies Used
 
-Currently, two official plugins are available:
+- **HTML5**: Semantic HTML structure
+- **CSS3**: Custom styling with Bootstrap 5.0.2
+- **JavaScript**: Interactive elements and functionality
+- **Bootstrap 5.0.2**: Responsive layout and components
+- **Google Fonts**: Playfair Display and Poppins fonts
+- **Font Awesome**: Iconography
 
--   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
--   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sections
 
-## Expanding the ESLint configuration
+- **Hero Section**: Welcome message and portfolio overview
+- **Portfolio Section**: Showcases my learning resources and projects
+- **Navigation**: Smooth scrolling between sections
+- **Footer**: Contact information and social links
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Portfolio Projects
+
+The website features these key learning resources:
+
+1. **HTML CSS & Git**: Comprehensive guide to HTML, CSS, and Git
+2. **JavaScript Learning**: Resources on JavaScript concepts and libraries
+3. **Hugo Learning**: Documentation on Hugo static site generator
+4. **Utility JavaScript**: Collection of JavaScript utilities
+5. **Open API Collection**: Resources on Open API
+
+## Setup and Installation
+
+1. Clone or download this repository
+2. Open `index.html` in your preferred browser
+3. The site is ready to use! No additional setup required
+
+## Customization
+
+To customize this portfolio for your own use:
+
+1. Update the content in `index.html` with your own information
+2. Modify the portfolio cards to showcase your own projects
+3. Update the social media links in the footer
+4. Customize colors in `style.css` to match your preferences
+5. Update the SEO meta tags in the `<head>` section
+
+## Browser Support
+
+The website is compatible with all modern browsers:
+- Chrome
+- Firefox
+- Safari
+- Edge
+
+## Contributing
+
+This is a personal project, but if you find any issues or have suggestions:
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Acknowledgments
+
+- Thanks to Bootstrap for the excellent CSS framework
+- Google Fonts for the beautiful typography options
+- All the open-source communities that make web development possible
+
+## Contact
+
+Feel free to reach out to me through the links provided on the website if you're interested in connecting or have any questions.
