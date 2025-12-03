@@ -60,6 +60,12 @@ const lectures = [
     desc: "Cara menulis prompt yang tepat agar output yang dihasilkan, sesuai harapan kita",
     link: "https://tio-pratomo.github.io/PromptAI/",
   },
+  {
+    id: 10,
+    title: "Fullcourse JS",
+    desc: "Mendalamai Javascript sebagai bahasa pemrograman untuk fullstack developer",
+    link: "https://fullcoursejs.vercel.app/",
+  },
 ];
 
 export { lectures };
